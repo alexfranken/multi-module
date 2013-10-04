@@ -18,6 +18,7 @@
 		<org.apache.activemq.version>5.8.0</org.apache.activemq.version>
 		<org.zkoss.zk.version>6.5.3</org.zkoss.zk.version>
 		<servlet.api.version>2.5</servlet.api.version>
+		
 		<!--Necessary for passing credentials-->
 		<project.scm.id>github</project.scm.id>
 		<scm.scm>scm:git</scm.scm>
