@@ -19,7 +19,7 @@
 		<org.zkoss.zk.version>6.5.3</org.zkoss.zk.version>
 		<servlet.api.version>2.5</servlet.api.version>
 		<!--Necessary for passing credentials-->
-		<project.scm.id>github<project.scm.id>
+		<project.scm.id>github</project.scm.id>
 		<scm.scm>scm:git</scm.scm>
 		<scm.root>https://github.com/alexfranken</scm.root>
 		<scm.parent>multi-module.git</scm.parent>
