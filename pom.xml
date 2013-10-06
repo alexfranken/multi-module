@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.alexfranken</groupId>
 	<artifactId>com.alexfranken.multimodule</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Test Aggregator POM</name>
 	<organization>
@@ -35,7 +35,7 @@
 		<connection>${scm.scm}:${scm.base}</connection>
 		<developerConnection>${scm.scm}:${scm.base}</developerConnection>
 		<url>${scm.base}</url>
-	  <tag>1.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<!-- TODO consider an open source Regenstrief parent to provide build consistency 
