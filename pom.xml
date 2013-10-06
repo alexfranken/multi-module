@@ -18,13 +18,13 @@
 		<org.zkoss.zk.version>6.5.3</org.zkoss.zk.version>
 		<servlet.api.version>2.5</servlet.api.version>
 		
-		<!--Necessary for passing credentials-->
+		<!--Necessary for passing credentials.  Need respective server defined in settings.xml -->
 		<project.scm.id>github</project.scm.id>
 		<scm.scm>scm:git</scm.scm>
 		<scm.root>https://github.com/alexfranken</scm.root>
-		<scm.parent>multi-module.git</scm.parent>
-		<scm.branch>trunk</scm.branch>
-		<scm.base>${scm.root}/${scm.parent}</scm.base>
+		<scm.parent>multi-module</scm.parent>
+		<scm.branch>tree/master</scm.branch>
+		<scm.base>${scm.root}/${scm.parent}/${scm.branch}</scm.base>
 		<project.name>${project.artifactId}</project.name>
 
 		<!-- Maven Plugin Properties -->
