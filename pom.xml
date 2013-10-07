@@ -40,6 +40,7 @@
 	<!-- TODO consider an open source Regenstrief parent to provide build consistency 
 		(i.e. pluginManagement) and repositories... -->
 	<distributionManagement>
+<!--
 		<repository>
 			<id>internal</id>
 			<url>http://arm.regenstrief.org/archiva/repository/internal</url>
@@ -48,6 +49,7 @@
 			<id>snapshots</id>
 			<url>http://arm.regenstrief.org/archiva/repository/snapshots</url>
 		</snapshotRepository>
+-->
 	</distributionManagement>
 
 	<modules>
